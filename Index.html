@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <section class= "middle">
+      
+    <header>
+      
+      <h1 id= "title">Lollipop Factory</h1>
+      
+    </header>
+    
+    
+    
+    <img class= "lollipop" src= "https://cdn.glitch.com/c2acb5e6-710f-4b59-b33f-45df8936a14d%2Fthumbnails%2FPixelArtLollipop.png?1562948602295" onclick= "lollipopMaker()">
+    
+    <h1>Lollipops Made</h1>
+      
+    <h1 id= "scoreNumber">0</h1>
+      
+    </section>
+      
+    <section class= "upgrades">
+      
+      <section class= "clickerUpgrade upgrade" onclick= "buyingClicker()">
+      
+      <h2>cost</h2>
+      
+      <h2 id= "clickerCost">50</h2>
+      
+      <img class= "clicker" src= "https://www.stickpng.com/assets/images/585e4718cb11b227491c337e.png">
+      
+        
+        <h2 id= "clickersOwned">clickers owned</h2>
+        
+        <h2 id= "clickerScore">0</h2>
+        
+      </section>
+      
+      <section class= "workerUpgrade upgrade" onclick= "buyingWorker()">
+        
+        <h2>cost</h2>
+        
+        <h2 id= "workerCost">500</h2>
+        
+        <img class = "worker" src= "https://cdn.glitch.com/c2acb5e6-710f-4b59-b33f-45df8936a14d%2FWorker.png?1563298995970">
+        
+        <h2 id= "workersOwned">workers owned</h2>
+        
+        <h2 id= "workerScore">0</h2>
+        
+        
+      </section>
+      
+            <section class= "treeUpgrade upgrade" onclick= "buyingTree()">
+        
+        <h2>cost</h2>
+        
+        <h2 id= "treeCost">2500</h2>
+        
+        <img class = "tree" src= "https://cdn.glitch.com/c2acb5e6-710f-4b59-b33f-45df8936a14d%2FLollipopTreePixelArt.png?1563468828344">
+        
+        <h2 id= "treesOwned">trees owned</h2>
+        
+        <h2 id= "treeScore">0</h2>
+        
+        
+      </section>
+        
+    </section> 
+    
+    <script src="script.js"></script>
+  </body>
+</html>

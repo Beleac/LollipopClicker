@@ -1,0 +1,150 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+/*
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+*/
+*{
+    margin:0px;
+    padding:0px;
+    
+  }
+  
+  header{
+  margin: 15px;
+    
+    
+  }
+  
+  body{
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+  
+  }
+  
+  .middle{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+  
+    
+  }
+  
+  
+  #title{
+    text-align: center;
+    
+  }
+  
+  h1{
+    margin:15px;
+    font-family: 'Press Start 2P', cursive;
+    color: #cc1159;
+  }
+  
+  h2{
+    margin:10px 0px;
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    
+  }
+  
+  .lollipop{
+   height:500px;
+   width:500px;
+  
+  }
+  
+  #scoreNumber{
+    font-size:50px;
+    
+    
+  }
+  
+  .upgrade{
+    border: 5px black solid;
+    height:150px;
+    width:100px;
+    background: #d2dae2;
+    margin:5px 0px 5px 0px;
+    
+  }
+  
+  .upgrades{
+  margin: -169px 0px 0px 20px;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    
+  }
+    
+  .clicker{
+    height:70px;
+    margin:5px 0px 0px 25px;
+    
+  }
+  
+  #clickerScore{
+    margin: 2px 0px 0px 0px;
+    
+  }
+  
+  #clickerCost{
+    margin: -5px 0px 0px 0px;
+    
+  }
+  
+  #clickersOwned{
+    margin: 2px 0px 0px 0px
+    
+  }
+  
+  .worker{
+    height:100px;
+    margin: -10px 0px 0px 10px;
+    
+  }
+  
+  #workerCost{
+    margin: -5px 0px 0px 0px;
+    
+  }
+  
+  
+  #workerScore{
+    margin: 2px 0px 0px 0px;
+    
+  }
+  
+  #workersOwned{
+    margin: -10px 0px 0px 0px;
+    
+  }
+  
+  .tree{
+    height:80px;
+    margin: 0px 0px 0px 10px;
+    
+  }
+  
+  #treeCost{
+    margin: -5px 0px 0px 0px;
+    
+  }
+  
+  
+  #treeScore{
+    margin: 2px 0px 0px 0px;
+    
+  }
+  
+  #treesOwned{
+    margin: 0px 0px 0px 0px;
+    
+  }
