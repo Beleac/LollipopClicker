@@ -19,7 +19,7 @@ var treeCostVar= document.getElementById("treeCost")
 
 var scoreboard= document.getElementById("scoreNumber")
 
-var autoClicks = 4
+var autoClicks = 0
 
 
 
